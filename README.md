@@ -1,5 +1,9 @@
-Diabetes Prediction System
-Overview
-The Diabetes Prediction System is a web application that uses a Logistic Regression model to predict whether a person is diabetic based on various health parameters. The system leverages a machine learning model trained on a dataset and allows users to input their health data to receive predictions. The predictions and user data are stored in a MongoDB database.
+# Diabetes Prediction System
 
-Project Structu
+## Overview
+This project is a web-based application that predicts whether a person is diabetic or non-diabetic based on several health indicators. The prediction model is built using Logistic Regression and Flask is used to deploy the model. 
+
+Users can input details like pregnancies, glucose level, blood pressure, skin thickness, insulin, BMI, diabetes pedigree function, and age, and the application will predict the likelihood of diabetes.
+
+## Project Structure
+
