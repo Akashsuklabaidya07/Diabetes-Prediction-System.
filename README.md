@@ -42,16 +42,16 @@ cd your_repository
 Create and activate a virtual environment (optional but recommended):
 
 bash
-Copy code
+
 python -m venv venv
 source venv/bin/activate         # On macOS/Linux
 venv\Scripts\activate            # On Windows
 Install dependencies:
 
-Install the required libraries using requirements.txt:
+## nstall the required libraries using requirements.txt:
 
 bash
-Copy code
+
 pip install -r requirements.txt
 Ensure pre-trained models and scaler are in place:
 
