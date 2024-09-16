@@ -8,6 +8,7 @@ This project aims to provide a simple, user-friendly tool that can assist in the
 ## Project Structure
 The project has the following structure:
 
+---bash
 
 ├── Model/                               # Directory containing pre-trained model and scaler
 │   ├── standardScalar.pkl               # Pre-trained scaler to normalize input data
