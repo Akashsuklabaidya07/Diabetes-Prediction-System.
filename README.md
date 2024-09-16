@@ -22,8 +22,10 @@ The project has the following structure:
 ```
 ## Setup and Installation
 Prerequisites
-Before running the application, make sure you have the following installed:
+Ensure you have Python 3.x installed on your system. Additionally, you will need to install the following libraries:
 
-Python 3.x/
-Flask (Python web framework)/
-Pickle (for loading pre-trained models)
+Flask
+Numpy
+Pandas
+Scikit-learn
+Pickle
