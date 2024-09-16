@@ -21,12 +21,10 @@ The project has the following structure:
 └── README.md                            # Project documentation
 ```
 
+
 ## Setup
 
 ### Prerequisites
-
-Make sure you have the following installed:
-
 - Python 3.8
 - Flask
 - Pandas
@@ -37,13 +35,57 @@ Make sure you have the following installed:
 
 ### Installation
 
-1. **Clone the repository:**
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Akashsuklabaidya07/Dibetes-Prediction-System.git
+    cd Dibetes-Prediction-System
+    ``` 
 
-   ```bash
-   git clone https://github.com/Akashsuklabaidya07/Dibeties_Prediction_System.git
-   cd Diabetes-Deployment
+2. Install the dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-2. **Navigate to the project directory:**
+### Run the application
+
+1. Start the Flask Application:
+    ```bash
+    python application.py
+    ```
+
+2. Access the Application:
+    Open a web browser and navigate to `http://127.0.0.1:5000` to access the application.
+
+## How It Works
+
+### Data Preparation:
+- The dataset `diabetes2.csv` is loaded and preprocessed.
+- Missing values are replaced with the mean of the respective columns.
+
+### Model Training:
+- The data is split into training and testing sets.
+- Features are standardized using `StandardScaler`.
+- A Logistic Regression model is trained on the standardized training data.
+- The trained model and scaler are saved using pickle.
+
+### Web Application:
+- The Flask application serves a web form where users can input their health parameters.
+- The input data is standardized using the pre-trained scaler.
+- The standardized data is fed into the Logistic Regression model to make predictions.
+- The results and user data are stored in a MongoDB database.
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgements
+- The dataset used for training is from Kaggle.
+- The project is built using Flask and Scikit-Learn.
+- Pickle for saving and loading the machine learning model and scaler.
+- HTML/CSS for building the web interface.
+
+## Contact
+If you have any questions, feedback, or issues, please feel free to contact at: **akashsuklabaidya780@gamil.com**.
+
    
 
 
