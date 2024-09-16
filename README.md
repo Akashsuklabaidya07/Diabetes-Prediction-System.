@@ -24,6 +24,6 @@ The project has the following structure:
 Prerequisites
 Before running the application, make sure you have the following installed:
 
-Python 3.x
-Flask (Python web framework)
+Python 3.x/
+Flask (Python web framework)/
 Pickle (for loading pre-trained models)
