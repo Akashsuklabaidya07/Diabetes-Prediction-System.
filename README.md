@@ -20,3 +20,10 @@ The project has the following structure:
 ├── requirements.txt                     # Python dependencies for the project
 └── README.md                            # Project documentation
 ```
+## Setup and Installation
+Prerequisites
+Before running the application, make sure you have the following installed:
+
+Python 3.x
+Flask (Python web framework)
+Pickle (for loading pre-trained models)
