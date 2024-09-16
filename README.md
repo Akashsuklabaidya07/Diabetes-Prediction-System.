@@ -24,8 +24,8 @@ The project has the following structure:
 Prerequisites
 Ensure you have Python 3.x installed on your system. Additionally, you will need to install the following libraries:
 
-Flask
-Numpy
-Pandas
+Flask<br>
+Numpy<br>
+Pandas<br>
 Scikit-learn
 Pickle
