@@ -14,7 +14,30 @@ Here is the project structure with a tree diagram:
 │   ├── index.html                       # Landing page for the web app
 │   ├── single_prediction.html           # Page to display the prediction result
 │   └── home.html                        # Form page for user input
-├── app.py                               # Main Flask application script
+├── application.py                               # Main Flask application script
 ├── requirements.txt                     # File containing the required Python packages
 └── README.md                            # Project documentation
 
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your_username/your_repository.git
+cd your_repository
+Create and activate a virtual environment (optional but recommended):
+
+bash
+Copy code
+python -m venv venv
+source venv/bin/activate       # On macOS/Linux
+venv\Scripts\activate          # On Windows
+Install dependencies: All required packages are listed in the requirements.txt file. Install them using:
+
+bash
+Copy code
+pip install -r requirements.txt
+Ensure the Model folder contains the pre-trained model and scaler:
+
+standardScalar.pkl: Used to scale the user input data.
+modelForPrediction.pkl: The logistic regression model for predicting diabetes.
