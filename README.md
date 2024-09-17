@@ -84,7 +84,7 @@ This project is licensed under the MIT License.
 - HTML/CSS for building the web interface.
 
 ## Contact
-If you have any questions, feedback, or issues, please feel free to contact at: **akashsuklabaidya780@gamil.com**.
+If you have any questions, feedback, or issues, please feel free to contact at: **akashsuklabaidya780@gamil.com** 
 
    
 
